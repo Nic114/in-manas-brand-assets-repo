@@ -1,0 +1,13 @@
+Add curated product visuals here (high-res PNG, + @2x). Keep the set small and intentional.
+
+For each screenshot, add an entry in ../manifest.json with:
+  - name, file, png2x
+  - theme  (dark | light — which background it belongs on)
+  - shows  (one line: what the screenshot depicts)
+  - treatment (how to use it: e.g. "float on dark hero, apply glow-accent, don't crop chrome")
+
+Example names already stubbed in the manifest:
+  portal-dashboard.png   (AI OS Portal dashboard — dark)
+  inno-verse-hub.png     (INNO-VERSE tool hub — light)
+
+Then delete this file.

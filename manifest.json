@@ -1,0 +1,60 @@
+{
+  "$comment": "in-manas brand asset manifest. AI tools: resolve an asset by name -> baseUrl + file. Pick logo/screenshot by the 'theme' field to match the slide/page theme (see design guide §1). Replace <ORG> after creating the GitHub repo.",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/<ORG>/brand-assets@main",
+  "version": "1.0.0",
+  "logos": [
+    {
+      "name": "logo-full-on-dark",
+      "file": "logo/logo-full-on-dark.svg",
+      "png2x": "logo/logo-full-on-dark@2x.png",
+      "theme": "dark",
+      "use": "Full 'in·manas' lockup on dark backgrounds (dark theme). White logo."
+    },
+    {
+      "name": "logo-full-on-light",
+      "file": "logo/logo-full-on-light.svg",
+      "png2x": "logo/logo-full-on-light@2x.png",
+      "theme": "light",
+      "use": "Full 'in·manas' lockup on white/light backgrounds (light theme). Dark logo."
+    },
+    {
+      "name": "logo-mark-on-dark",
+      "file": "logo/logo-mark-on-dark.svg",
+      "png2x": "logo/logo-mark-on-dark@2x.png",
+      "theme": "dark",
+      "use": "Icon-only 'in·' mark on dark backgrounds. Favicons, avatars, tight spaces."
+    },
+    {
+      "name": "logo-mark-on-light",
+      "file": "logo/logo-mark-on-light.svg",
+      "png2x": "logo/logo-mark-on-light@2x.png",
+      "theme": "light",
+      "use": "Icon-only 'in·' mark on light backgrounds."
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "portal-dashboard",
+      "file": "screenshots/portal-dashboard.png",
+      "png2x": "screenshots/portal-dashboard@2x.png",
+      "theme": "dark",
+      "shows": "AI OS Portal — dashboard with workspace health, metrics, charts.",
+      "treatment": "Float on a dark hero; may apply glow-accent. Do not crop the window chrome or stretch."
+    },
+    {
+      "name": "inno-verse-hub",
+      "file": "screenshots/inno-verse-hub.png",
+      "png2x": "screenshots/inno-verse-hub@2x.png",
+      "theme": "light",
+      "shows": "INNO-VERSE tool hub — Trend/Innovation library, article cards.",
+      "treatment": "Use as product showcase in light content slides; keep aspect ratio."
+    }
+  ],
+  "usageRules": {
+    "logoSelection": "Choose the logo whose 'theme' matches the background: dark background -> on-dark (white) logo; light background -> on-light (dark) logo.",
+    "clearSpace": "Keep clear space around the logo equal to the height of the 'in·' mark.",
+    "minWidth": "Full logo >= 96px wide on screen; mark >= 24px.",
+    "never": "Never recolor, stretch, rotate, add shadows/effects, or place the logo on a busy background or a low-contrast color.",
+    "format": "Prefer SVG. Use png2x only where SVG can't be placed (some PPTX flows)."
+  }
+}
