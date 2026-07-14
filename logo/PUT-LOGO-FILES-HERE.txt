@@ -1,9 +1,0 @@
-Add the logo files here with these exact names (see ../manifest.json):
-
-  logo-full-on-dark.svg     + logo-full-on-dark@2x.png     (white logo, for dark backgrounds)
-  logo-full-on-light.svg    + logo-full-on-light@2x.png    (dark logo, for light backgrounds)
-  logo-mark-on-dark.svg     + logo-mark-on-dark@2x.png     (icon-only mark, dark bg)
-  logo-mark-on-light.svg    + logo-mark-on-light@2x.png    (icon-only mark, light bg)
-
-SVG preferred (scalable, recolorable). PNG@2x as fallback for tools that can't place SVG.
-Then delete this file.
