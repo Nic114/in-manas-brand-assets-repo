@@ -1,7 +1,9 @@
 {
   "$comment": "in-manas brand asset manifest. AI tools: resolve an asset by name -> baseUrl + file. Pick the logo whose 'theme' matches the background (see design guide §1). Replace <ORG> after creating the GitHub repo.",
   "baseUrl": "https://cdn.jsdelivr.net/gh/Nic114/in-manas-brand-assets-repo@master",
-  "version": "1.1.0",
+  "version": "1.2.0",
+  "inlineLogos": "logos-inline.json",
+  "fetchNote": "Fetching .svg/.png directly often returns an empty body from content-type-sensitive fetch tools, and curl/wget are proxy-blocked in many sandboxes. To get logo SOURCE with no image fetch, read logos-inline.json (plain JSON). For any repo file, the GitHub Contents API returns it base64-encoded in JSON: https://api.github.com/repos/Nic114/in-manas-brand-assets-repo/contents/<path>",
   "logos": [
     {
       "name": "logo-full-on-dark",
